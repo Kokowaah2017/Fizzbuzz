@@ -19,6 +19,8 @@ int main()
             else
                 printf("%d\n",i);
         }
+	if(i%7==0)
+		printf("7-buzz\n");
     }
     return 0;
 }
